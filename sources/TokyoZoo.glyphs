@@ -13,8 +13,7 @@ DisplayStrings = (
 "H©/trademark ªº¹H²2H³3H/foursuperior H\012H/fraction H½H¼H¾H//",
 "H¡H¿H·H-­H/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase H/quotedblbase H<«H»H/guilsinglleft H/guilsinglright H\012\"¤0C/euro 56S£0/divisionslash 0/minus +±÷×¬/_v_stem_uc µ/_U-round-UC J/_P_UC ¶§(%°¦",
 "KH¡H¿H",
-"/space/nbspace/_v_stem_lc nn/space nn/space nn/space/space/space",
-"/OE/_h_stem_lc/_v_stem_lc/_h_stem_lc b&/quotedblright"
+"/space/nbspace/_v_stem_lc nn/space nn/space nn/space/space/space"
 );
 copyright = "Copyright 2019 The Dots Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)";
 customParameters = (
