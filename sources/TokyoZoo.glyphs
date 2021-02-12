@@ -15,7 +15,7 @@ DisplayStrings = (
 "KH¡H¿H",
 "/space/nbspace/_v_stem_lc nn/space nn/space nn/space/space/space"
 );
-copyright = "Copyright 2019 The Dots Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)";
+copyright = "Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)";
 customParameters = (
 {
 name = glyphOrder;
@@ -204,7 +204,7 @@ name = postscriptUniqueID;
 value = 7;
 }
 );
-date = "2020-03-17 08:19:03 +0000";
+date = "2021-02-12 05:04:46 +0000";
 designer = "Yoshimichi Ohira";
 designerURL = "https://www.zenfont.jp/";
 disablesNiceNames = 1;
