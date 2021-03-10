@@ -13,7 +13,17 @@ DisplayStrings = (
 "H©/trademark ªº¹H²2H³3H/foursuperior H\012H/fraction H½H¼H¾H//",
 "H¡H¿H·H-­H/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase H/quotedblbase H<«H»H/guilsinglleft H/guilsinglright H\012\"¤0C/euro 56S£0/divisionslash 0/minus +±÷×¬/_v_stem_uc µ/_U-round-UC J/_P_UC ¶§(%°¦",
 "KH¡H¿H",
-"/space/nbspace/_v_stem_lc nn/space nn/space nn/space/space/space"
+"/space/nbspace/_v_stem_lc nn/space nn/space nn/space/space/space",
+"/dotaccentcomb",
+"/circumflexcomb",
+"/circumflex"
+);
+classes = (
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Aacute Acircumflex Adieresis Agrave Aring Atilde AE Ccedilla Eth Eacute Ecircumflex Edieresis Edotaccent Egrave Iacute Icircumflex Idieresis Igrave Ntilde Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE Thorn Germandbls Uacute Ucircumflex Udieresis Ugrave Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave";
+name = Uppercase;
+}
 );
 copyright = "Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)";
 customParameters = (
@@ -209,6 +219,45 @@ designer = "Yoshimichi Ohira";
 designerURL = "https://www.zenfont.jp/";
 disablesNiceNames = 1;
 familyName = "Tokyo Zoo";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;\012feature frac;\012feature ordn;\012feature case;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb dotaccentcomb gravecomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb];\012	sub [i]' @CombiningTopAccents by [idotless];\012	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];\012	@Markscomb = [dieresiscomb gravecomb acutecomb circumflexcomb ringcomb tildecomb cedillacomb];\012	@MarkscombCase = [dieresiscomb.case gravecomb.case acutecomb.case circumflexcomb.case ringcomb.case tildecomb.case cedillacomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub dieresiscomb by dieresiscomb.case;\012sub gravecomb by gravecomb.case;\012sub acutecomb by acutecomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub ringcomb by ringcomb.case;\012sub tildecomb by tildecomb.case;\012sub cedillacomb by cedillacomb.case;\012";
+name = case;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -24210,6 +24259,26 @@ width = 677;
 unicode = 00CB;
 },
 {
+glyphname = Edotaccent;
+lastChange = "2021-03-10 16:23:52 +0000";
+layers = (
+{
+components = (
+{
+name = E;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 283, 402}";
+}
+);
+layerId = master01;
+width = 677;
+}
+);
+unicode = 0116;
+},
+{
 glyphname = Egrave;
 lastChange = "2021-02-12 03:28:20 +0000";
 layers = (
@@ -25472,6 +25541,90 @@ width = 702;
 unicode = 00D9;
 },
 {
+color = 8;
+glyphname = Wacute;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = W;
+},
+{
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 315, 0}";
+}
+);
+layerId = master01;
+width = 972;
+}
+);
+unicode = 1E82;
+},
+{
+color = 8;
+glyphname = Wcircumflex;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = W;
+},
+{
+name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 211, 0}";
+}
+);
+layerId = master01;
+width = 972;
+}
+);
+unicode = 0174;
+},
+{
+color = 8;
+glyphname = Wdieresis;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = W;
+},
+{
+name = dieresiscomb.case;
+transform = "{1, 0, 0, 1, 204, 0}";
+}
+);
+layerId = master01;
+width = 972;
+}
+);
+unicode = 1E84;
+},
+{
+color = 8;
+glyphname = Wgrave;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = W;
+},
+{
+name = gravecomb.case;
+transform = "{1, 0, 0, 1, 319, 0}";
+}
+);
+layerId = master01;
+width = 972;
+}
+);
+unicode = 1E80;
+},
+{
 glyphname = Yacute;
 lastChange = "2021-02-12 03:28:20 +0000";
 layers = (
@@ -25503,6 +25656,69 @@ width = 769;
 }
 );
 unicode = 00DD;
+},
+{
+color = 8;
+glyphname = Ycircumflex;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = Y;
+},
+{
+name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 110, 0}";
+}
+);
+layerId = master01;
+width = 769;
+}
+);
+unicode = 0176;
+},
+{
+color = 8;
+glyphname = Ydieresis;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = Y;
+},
+{
+name = dieresiscomb.case;
+transform = "{1, 0, 0, 1, 103, 0}";
+}
+);
+layerId = master01;
+width = 769;
+}
+);
+unicode = 0178;
+},
+{
+color = 8;
+glyphname = Ygrave;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = Y;
+},
+{
+name = gravecomb.case;
+transform = "{1, 0, 0, 1, 218, 0}";
+}
+);
+layerId = master01;
+width = 769;
+}
+);
+unicode = 1EF2;
 },
 {
 glyphname = aacute;
@@ -26281,6 +26497,26 @@ width = 363;
 }
 );
 unicode = 00EB;
+},
+{
+glyphname = edotaccent;
+lastChange = "2021-03-10 16:24:15 +0000";
+layers = (
+{
+components = (
+{
+name = e;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 102, 0}";
+}
+);
+layerId = master01;
+width = 363;
+}
+);
+unicode = 0117;
 },
 {
 glyphname = egrave;
@@ -27488,6 +27724,90 @@ width = 400;
 unicode = 00F9;
 },
 {
+color = 8;
+glyphname = wacute;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 164, 0}";
+}
+);
+layerId = master01;
+width = 521;
+}
+);
+unicode = 1E83;
+},
+{
+color = 8;
+glyphname = wcircumflex;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, 104, 0}";
+}
+);
+layerId = master01;
+width = 521;
+}
+);
+unicode = 0175;
+},
+{
+color = 8;
+glyphname = wdieresis;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 117, 0}";
+}
+);
+layerId = master01;
+width = 521;
+}
+);
+unicode = 1E85;
+},
+{
+color = 8;
+glyphname = wgrave;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = w;
+},
+{
+name = gravecomb;
+transform = "{1, 0, 0, 1, 164, 0}";
+}
+);
+layerId = master01;
+width = 521;
+}
+);
+unicode = 1E81;
+},
+{
 glyphname = yacute;
 lastChange = "2021-02-12 03:28:20 +0000";
 layers = (
@@ -27521,6 +27841,27 @@ width = 422;
 unicode = 00FD;
 },
 {
+color = 8;
+glyphname = ycircumflex;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = y;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, 54, 0}";
+}
+);
+layerId = master01;
+width = 422;
+}
+);
+unicode = 0177;
+},
+{
 glyphname = ydieresis;
 lastChange = "2021-02-12 03:28:20 +0000";
 layers = (
@@ -27550,6 +27891,27 @@ width = 422;
 }
 );
 unicode = 00FF;
+},
+{
+color = 8;
+glyphname = ygrave;
+lastChange = "2021-03-10 16:21:56 +0000";
+layers = (
+{
+components = (
+{
+name = y;
+},
+{
+name = gravecomb;
+transform = "{1, 0, 0, 1, 114, 0}";
+}
+);
+layerId = master01;
+width = 422;
+}
+);
+unicode = 1EF3;
 },
 {
 glyphname = ordfeminine;
@@ -31430,6 +31792,85 @@ rightMetricsKey = "=|";
 unicode = 0308;
 },
 {
+color = 8;
+glyphname = dotaccentcomb;
+lastChange = "2021-03-10 16:29:56 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{106, 402}";
+},
+{
+name = top;
+position = "{106, 578}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"138 466 OFFCURVE",
+"162 489 OFFCURVE",
+"162 522 CURVE SMOOTH",
+"162 555 OFFCURVE",
+"138 578 OFFCURVE",
+"106 578 CURVE SMOOTH",
+"74 578 OFFCURVE",
+"50 555 OFFCURVE",
+"50 522 CURVE SMOOTH",
+"50 489 OFFCURVE",
+"74 466 OFFCURVE",
+"106 466 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"89 491 OFFCURVE",
+"75 504 OFFCURVE",
+"75 522 CURVE SMOOTH",
+"75 540 OFFCURVE",
+"89 552 OFFCURVE",
+"106 552 CURVE SMOOTH",
+"124 552 OFFCURVE",
+"137 540 OFFCURVE",
+"137 522 CURVE SMOOTH",
+"137 504 OFFCURVE",
+"123 491 OFFCURVE",
+"106 491 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"131 478 OFFCURVE",
+"150 496 OFFCURVE",
+"150 522 CURVE SMOOTH",
+"150 548 OFFCURVE",
+"131 566 OFFCURVE",
+"106 566 CURVE SMOOTH",
+"81 566 OFFCURVE",
+"62 548 OFFCURVE",
+"62 522 CURVE SMOOTH",
+"62 496 OFFCURVE",
+"81 478 OFFCURVE",
+"106 478 CURVE SMOOTH"
+);
+}
+);
+width = 212;
+}
+);
+unicode = 0307;
+},
+{
 color = 9;
 glyphname = gravecomb;
 lastChange = "2021-02-12 03:28:23 +0000";
@@ -31951,6 +32392,21 @@ width = 287;
 }
 );
 unicode = 00A8;
+},
+{
+glyphname = dotaccent;
+layers = (
+{
+components = (
+{
+name = dotaccentcomb;
+}
+);
+layerId = master01;
+width = 212;
+}
+);
+unicode = 02D9;
 },
 {
 glyphname = acute;
