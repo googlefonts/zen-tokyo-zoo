@@ -344,6 +344,7 @@ verticalStems = (
 30
 );
 visible = 1;
+weightValue = 400;
 xHeight = 402;
 }
 );
