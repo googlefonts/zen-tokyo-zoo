@@ -16,7 +16,8 @@ DisplayStrings = (
 "/space/nbspace/_v_stem_lc nn/space nn/space nn/space/space/space",
 "/dotaccentcomb",
 "/circumflexcomb",
-"/circumflex"
+"/circumflex",
+"/_v_stem_uc/_h_stem_UC L"
 );
 classes = (
 {
@@ -25,7 +26,7 @@ code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Aacute Acircumflex A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)";
+copyright = "Copyright 2021 The Zen Tokyo Zoo Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)";
 customParameters = (
 {
 name = glyphOrder;
@@ -182,10 +183,6 @@ value = (
 );
 },
 {
-name = preferredFamilyName;
-value = "Tokyo Zoo";
-},
-{
 name = versionString;
 value = "Version 1.000";
 },
@@ -218,7 +215,7 @@ date = "2021-02-12 05:04:46 +0000";
 designer = "Yoshimichi Ohira";
 designerURL = "https://www.zenfont.jp/";
 disablesNiceNames = 1;
-familyName = "Tokyo Zoo";
+familyName = "Zen Tokyo Zoo";
 featurePrefixes = (
 {
 automatic = 1;
@@ -339,7 +336,13 @@ position = "{374, 412}";
 position = "{219, 441}";
 }
 );
+horizontalStems = (
+30
+);
 id = master01;
+verticalStems = (
+30
+);
 visible = 1;
 xHeight = 402;
 }
@@ -34717,24 +34720,7 @@ width = 600;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "TokyoZoo-Regular";
-},
-{
-name = postscriptFullName;
-value = "Tokyo Zoo Regular";
-},
-{
-name = styleMapFamilyName;
-value = "Tokyo Zoo";
-},
-{
-name = weightClass;
-value = 400;
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 master01 = 1;
 };
