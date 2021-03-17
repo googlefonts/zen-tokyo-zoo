@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1356";
 DisplayStrings = (
 "/_v_stem_uc/_h_stem_UC/_round_UC/_P_UC/_U-round-UC/_double_diag_UC \012AHOEFJUTQPRCGVBDIKLMNSUVWXYZ",
 "/_v_stem_uc/_h_stem_UC/_round_UC/_P_UC/_U-round-UC/_double_diag_UC/_figure_round \012H0123456789",
@@ -382,8 +382,9 @@ width = 280;
 unicode = 0020;
 },
 {
+color = 4;
 glyphname = exclam;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -482,8 +483,9 @@ rightMetricsKey = H;
 unicode = 0021;
 },
 {
+color = 4;
 glyphname = quotedbl;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -584,8 +586,9 @@ rightMetricsKey = quotesingle;
 unicode = 0022;
 },
 {
+color = 4;
 glyphname = numbersign;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -1193,8 +1196,9 @@ rightMetricsKey = H;
 unicode = 0023;
 },
 {
+color = 4;
 glyphname = dollar;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -1861,8 +1865,9 @@ rightMetricsKey = S;
 unicode = 0024;
 },
 {
+color = 4;
 glyphname = percent;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -2596,8 +2601,9 @@ rightMetricsKey = "=|";
 unicode = 0025;
 },
 {
+color = 4;
 glyphname = ampersand;
-lastChange = "2021-02-12 03:54:24 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -3316,8 +3322,9 @@ width = 797;
 unicode = 0026;
 },
 {
+color = 4;
 glyphname = quotesingle;
-lastChange = "2021-02-12 03:30:54 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -3381,8 +3388,9 @@ rightMetricsKey = "=H/2";
 unicode = 0027;
 },
 {
+color = 4;
 glyphname = parenleft;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -3559,8 +3567,9 @@ leftMetricsKey = O;
 unicode = 0028;
 },
 {
+color = 4;
 glyphname = parenright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -3632,8 +3641,9 @@ rightMetricsKey = "=|parenleft";
 unicode = 0029;
 },
 {
+color = 4;
 glyphname = asterisk;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -3930,8 +3940,9 @@ rightMetricsKey = H;
 unicode = 002A;
 },
 {
+color = 4;
 glyphname = plus;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4138,8 +4149,9 @@ rightMetricsKey = "=|";
 unicode = 002B;
 },
 {
+color = 4;
 glyphname = comma;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4246,8 +4258,9 @@ rightMetricsKey = period;
 unicode = 002C;
 },
 {
+color = 4;
 glyphname = hyphen;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4302,8 +4315,9 @@ rightMetricsKey = H;
 unicode = 002D;
 },
 {
+color = 4;
 glyphname = period;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4364,8 +4378,9 @@ rightMetricsKey = "=|";
 unicode = 002E;
 },
 {
+color = 4;
 glyphname = slash;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4467,8 +4482,9 @@ rightMetricsKey = "=|";
 unicode = 002F;
 },
 {
+color = 4;
 glyphname = zero;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4645,8 +4661,9 @@ rightMetricsKey = O;
 unicode = 0030;
 },
 {
+color = 4;
 glyphname = one;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -4803,8 +4820,9 @@ rightMetricsKey = H;
 unicode = 0031;
 },
 {
+color = 4;
 glyphname = two;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -5173,8 +5191,9 @@ rightMetricsKey = zero;
 unicode = 0032;
 },
 {
+color = 4;
 glyphname = three;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -5549,8 +5568,9 @@ rightMetricsKey = zero;
 unicode = 0033;
 },
 {
+color = 4;
 glyphname = four;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -5766,8 +5786,9 @@ rightMetricsKey = zero;
 unicode = 0034;
 },
 {
+color = 4;
 glyphname = five;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -6087,8 +6108,9 @@ width = 558;
 unicode = 0035;
 },
 {
+color = 4;
 glyphname = six;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -6392,8 +6414,9 @@ rightMetricsKey = zero;
 unicode = 0036;
 },
 {
+color = 4;
 glyphname = seven;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -6538,8 +6561,9 @@ width = 505;
 unicode = 0037;
 },
 {
+color = 4;
 glyphname = eight;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7038,8 +7062,9 @@ width = 561;
 unicode = 0038;
 },
 {
+color = 4;
 glyphname = nine;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7208,8 +7233,9 @@ rightMetricsKey = "=|six";
 unicode = 0039;
 },
 {
+color = 4;
 glyphname = colon;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7307,8 +7333,9 @@ rightMetricsKey = period;
 unicode = 003A;
 },
 {
+color = 4;
 glyphname = semicolon;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7408,8 +7435,9 @@ rightMetricsKey = period;
 unicode = 003B;
 },
 {
+color = 4;
 glyphname = less;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7534,8 +7562,9 @@ rightMetricsKey = "=|";
 unicode = 003C;
 },
 {
+color = 4;
 glyphname = equal;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7617,8 +7646,9 @@ rightMetricsKey = plus;
 unicode = 003D;
 },
 {
+color = 4;
 glyphname = greater;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -7688,8 +7718,9 @@ rightMetricsKey = less;
 unicode = 003E;
 },
 {
+color = 4;
 glyphname = question;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -8008,8 +8039,9 @@ rightMetricsKey = H;
 unicode = 003F;
 },
 {
+color = 4;
 glyphname = at;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:12 +0000";
 layers = (
 {
 background = {
@@ -15513,8 +15545,9 @@ width = 711;
 unicode = 005A;
 },
 {
+color = 4;
 glyphname = bracketleft;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:20 +0000";
 layers = (
 {
 background = {
@@ -15625,8 +15658,9 @@ rightMetricsKey = H;
 unicode = 005B;
 },
 {
+color = 4;
 glyphname = backslash;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:20 +0000";
 layers = (
 {
 background = {
@@ -15678,8 +15712,9 @@ rightMetricsKey = slash;
 unicode = 005C;
 },
 {
+color = 4;
 glyphname = bracketright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:20 +0000";
 layers = (
 {
 background = {
@@ -15705,8 +15740,9 @@ rightMetricsKey = "=|bracketleft";
 unicode = 005D;
 },
 {
+color = 4;
 glyphname = asciicircum;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:20 +0000";
 layers = (
 {
 background = {
@@ -15845,8 +15881,9 @@ rightMetricsKey = "=|";
 unicode = 005E;
 },
 {
+color = 4;
 glyphname = underscore;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:20 +0000";
 layers = (
 {
 background = {
@@ -20388,8 +20425,9 @@ rightMetricsKey = i;
 unicode = 007A;
 },
 {
+color = 4;
 glyphname = braceleft;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -20546,8 +20584,9 @@ rightMetricsKey = H;
 unicode = 007B;
 },
 {
+color = 4;
 glyphname = bar;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -20602,8 +20641,9 @@ rightMetricsKey = H;
 unicode = 007C;
 },
 {
+color = 4;
 glyphname = braceright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -20725,8 +20765,9 @@ width = 395;
 unicode = 007D;
 },
 {
+color = 4;
 glyphname = asciitilde;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -21007,8 +21048,9 @@ rightMetricsKey = plus;
 unicode = 007E;
 },
 {
+color = 4;
 glyphname = cent;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -21427,8 +21469,9 @@ width = 577;
 unicode = 00A2;
 },
 {
+color = 4;
 glyphname = bullet;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -21581,8 +21624,9 @@ rightMetricsKey = "=|";
 unicode = 2022;
 },
 {
+color = 4;
 glyphname = registered;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -21777,8 +21821,9 @@ rightMetricsKey = O;
 unicode = 00AE;
 },
 {
+color = 4;
 glyphname = copyright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -21950,8 +21995,9 @@ rightMetricsKey = "=|";
 unicode = 00A9;
 },
 {
+color = 4;
 glyphname = trademark;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22069,8 +22115,9 @@ width = 684;
 unicode = 2122;
 },
 {
+color = 4;
 glyphname = plusminus;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22184,8 +22231,9 @@ rightMetricsKey = plus;
 unicode = 00B1;
 },
 {
+color = 4;
 glyphname = yen;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22471,8 +22519,9 @@ rightMetricsKey = Y;
 unicode = 00A5;
 },
 {
+color = 4;
 glyphname = ellipsis;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22613,8 +22662,9 @@ widthMetricsKey = space;
 unicode = 00A0;
 },
 {
+color = 4;
 glyphname = endash;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22667,8 +22717,9 @@ rightMetricsKey = hyphen;
 unicode = 2013;
 },
 {
+color = 4;
 glyphname = emdash;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22720,8 +22771,9 @@ rightMetricsKey = hyphen;
 unicode = 2014;
 },
 {
+color = 4;
 glyphname = quotedblleft;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22816,8 +22868,9 @@ rightMetricsKey = quotesingle;
 unicode = 201C;
 },
 {
+color = 4;
 glyphname = quotedblright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22867,8 +22920,9 @@ rightMetricsKey = quotesingle;
 unicode = 201D;
 },
 {
+color = 4;
 glyphname = quoteleft;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -22930,8 +22984,9 @@ rightMetricsKey = quotesingle;
 unicode = 2018;
 },
 {
+color = 4;
 glyphname = quoteright;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -23039,8 +23094,9 @@ rightMetricsKey = quotesingle;
 unicode = 2019;
 },
 {
+color = 4;
 glyphname = divide;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:28 +0000";
 layers = (
 {
 background = {
@@ -27918,8 +27974,9 @@ width = 422;
 unicode = 1EF3;
 },
 {
+color = 4;
 glyphname = ordfeminine;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:12:03 +0000";
 layers = (
 {
 background = {
@@ -28045,8 +28102,9 @@ rightMetricsKey = onesuperior;
 unicode = 00AA;
 },
 {
+color = 4;
 glyphname = ordmasculine;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:12:03 +0000";
 layers = (
 {
 background = {
@@ -28216,8 +28274,9 @@ rightMetricsKey = onesuperior;
 unicode = 00BA;
 },
 {
+color = 4;
 glyphname = onesuperior;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -28306,8 +28365,9 @@ rightMetricsKey = "=|";
 unicode = 00B9;
 },
 {
+color = 4;
 glyphname = twosuperior;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -28497,8 +28557,9 @@ rightMetricsKey = onesuperior;
 unicode = 00B2;
 },
 {
+color = 4;
 glyphname = threesuperior;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -28772,8 +28833,9 @@ rightMetricsKey = onesuperior;
 unicode = 00B3;
 },
 {
+color = 4;
 glyphname = foursuperior;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -28899,8 +28961,9 @@ rightMetricsKey = four;
 unicode = 2074;
 },
 {
+color = 4;
 glyphname = fraction;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -28953,8 +29016,9 @@ rightMetricsKey = "=|";
 unicode = 2044;
 },
 {
+color = 4;
 glyphname = onehalf;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -28995,8 +29059,9 @@ rightMetricsKey = "=|";
 unicode = 00BD;
 },
 {
+color = 4;
 glyphname = onequarter;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29040,8 +29105,9 @@ rightMetricsKey = onehalf;
 unicode = 00BC;
 },
 {
+color = 4;
 glyphname = threequarters;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29085,8 +29151,9 @@ rightMetricsKey = onehalf;
 unicode = 00BE;
 },
 {
+color = 4;
 glyphname = exclamdown;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29112,8 +29179,9 @@ rightMetricsKey = exclam;
 unicode = 00A1;
 },
 {
+color = 4;
 glyphname = questiondown;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29139,8 +29207,9 @@ rightMetricsKey = "=|question";
 unicode = 00BF;
 },
 {
+color = 4;
 glyphname = periodcentered;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29166,8 +29235,9 @@ rightMetricsKey = period;
 unicode = 00B7;
 },
 {
+color = 4;
 glyphname = softhyphen;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29191,8 +29261,9 @@ width = 445;
 unicode = 00AD;
 },
 {
+color = 4;
 glyphname = quotesinglbase;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29218,8 +29289,9 @@ rightMetricsKey = quotesingle;
 unicode = 201A;
 },
 {
+color = 4;
 glyphname = quotedblbase;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29253,8 +29325,9 @@ rightMetricsKey = quotesingle;
 unicode = 201E;
 },
 {
+color = 4;
 glyphname = guillemetleft;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29286,8 +29359,9 @@ rightMetricsKey = guilsinglleft;
 unicode = 00AB;
 },
 {
+color = 4;
 glyphname = guillemetright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29313,8 +29387,9 @@ rightMetricsKey = guilsinglleft;
 unicode = 00BB;
 },
 {
+color = 4;
 glyphname = guilsinglleft;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29439,8 +29514,9 @@ rightMetricsKey = "=|";
 unicode = 2039;
 },
 {
+color = 4;
 glyphname = guilsinglright;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29466,8 +29542,9 @@ rightMetricsKey = guilsinglleft;
 unicode = 203A;
 },
 {
+color = 4;
 glyphname = currency;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -29671,8 +29748,9 @@ rightMetricsKey = O;
 unicode = 00A4;
 },
 {
+color = 4;
 glyphname = euro;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30013,8 +30091,9 @@ rightMetricsKey = C;
 unicode = 20AC;
 },
 {
+color = 4;
 glyphname = sterling;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30282,8 +30361,9 @@ rightMetricsKey = S;
 unicode = 00A3;
 },
 {
+color = 4;
 glyphname = divisionslash;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30354,8 +30434,9 @@ leftMetricsKey = slash;
 unicode = 2215;
 },
 {
+color = 4;
 glyphname = minus;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30383,8 +30464,9 @@ rightMetricsKey = plus;
 unicode = 2212;
 },
 {
+color = 4;
 glyphname = multiply;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30410,8 +30492,9 @@ rightMetricsKey = plus;
 unicode = 00D7;
 },
 {
+color = 4;
 glyphname = logicalnot;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30445,8 +30528,9 @@ rightMetricsKey = plus;
 unicode = 00AC;
 },
 {
+color = 4;
 glyphname = micro;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30706,8 +30790,9 @@ rightMetricsKey = "=|J";
 unicode = 00B5;
 },
 {
+color = 4;
 glyphname = paragraph;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -30913,8 +30998,9 @@ rightMetricsKey = H;
 unicode = 00B6;
 },
 {
+color = 4;
 glyphname = section;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -31408,8 +31494,9 @@ rightMetricsKey = S;
 unicode = 00A7;
 },
 {
+color = 4;
 glyphname = degree;
-lastChange = "2021-02-12 03:28:20 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
@@ -31562,8 +31649,9 @@ rightMetricsKey = "=|";
 unicode = 00B0;
 },
 {
+color = 4;
 glyphname = brokenbar;
-lastChange = "2021-02-12 03:28:23 +0000";
+lastChange = "2021-03-17 09:11:36 +0000";
 layers = (
 {
 background = {
