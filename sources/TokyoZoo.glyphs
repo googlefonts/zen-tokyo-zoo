@@ -17,7 +17,12 @@ DisplayStrings = (
 "/dotaccentcomb",
 "/circumflexcomb",
 "/circumflex",
-"/_v_stem_uc/_h_stem_UC L"
+"/_v_stem_uc/_h_stem_UC L",
+"/_v_stem_uc {",
+"!",
+"",
+"",
+""
 );
 classes = (
 {
@@ -384,7 +389,7 @@ unicode = 0020;
 {
 color = 4;
 glyphname = exclam;
-lastChange = "2021-03-17 09:11:12 +0000";
+lastChange = "2021-03-20 12:55:21 +0000";
 layers = (
 {
 background = {
@@ -20427,7 +20432,7 @@ unicode = 007A;
 {
 color = 4;
 glyphname = braceleft;
-lastChange = "2021-03-17 09:11:28 +0000";
+lastChange = "2021-03-20 12:27:25 +0000";
 layers = (
 {
 background = {
@@ -20435,22 +20440,22 @@ components = (
 {
 alignment = -1;
 name = _h_stem_UC;
-transform = "{0.3, 0, 0, 1, 248, 0}";
+transform = "{0.3, 0, 0, 1, 369, 0}";
 },
 {
 alignment = -1;
 name = _h_stem_UC;
-transform = "{0.3, 0, 0, 1, 248, 381}";
+transform = "{0.3, 0, 0, 1, 369, 381}";
 },
 {
 alignment = -1;
 name = _h_stem_UC;
-transform = "{0.3, 0, 0, 1, 248, -381}";
+transform = "{0.3, 0, 0, 1, 369, -381}";
 },
 {
 alignment = -1;
 name = _v_stem_uc;
-transform = "{1, 0, 0, 1.14924, 0, -60}";
+transform = "{1, 0, 0, 1.14924, 121, -60}";
 }
 );
 };
@@ -20458,26 +20463,32 @@ components = (
 {
 alignment = -1;
 name = _h_stem_UC;
-transform = "{0.3, 0, 0, 1, 248, 0}";
+transform = "{0.3, 0, 0, 1, 50, 0}";
 },
 {
 alignment = -1;
 name = _h_stem_UC;
-transform = "{0.3, 0, 0, 1, 248, 381}";
+transform = "{0.3, 0, 0, 1, 369, 381}";
 },
 {
 alignment = -1;
 name = _h_stem_UC;
-transform = "{0.3, 0, 0, 1, 248, -381}";
+transform = "{0.3, 0, 0, 1, 369, -381}";
 },
 {
 alignment = -1;
 name = _v_stem_uc;
-transform = "{1, 0, 0, 1.14924, 0, -60}";
+transform = "{1, 0, 0, 1.14924, 121, -60}";
+}
+);
+guideLines = (
+{
+angle = 90;
+position = "{135, 664}";
 }
 );
 layerId = master01;
-width = 383;
+width = 504;
 },
 {
 associatedMasterId = master01;
