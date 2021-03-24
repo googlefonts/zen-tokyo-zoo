@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/_v_stem_uc/_h_stem_UC/_round_UC/_P_UC/_U-round-UC/_double_diag_UC \012AHOEFJUTQPRCGVBDIKLMNSUVWXYZ",
 "/_v_stem_uc/_h_stem_UC/_round_UC/_P_UC/_U-round-UC/_double_diag_UC/_figure_round \012H",
@@ -19,11 +19,6 @@ KHHH,
 "/circumflex",
 "/_v_stem_uc/_h_stem_UC L",
 "/_v_stem_uc",
-"",
-"",
-"",
-"",
-"",
 "/sterling.case",
 "/exclamdown.case",
 "/guillemetleft.case",
@@ -57,7 +52,8 @@ KHHH,
 "/logicalnot.case",
 "/brokenbar.case",
 "abcdefghijklmnopqrstuv!\"#$%&'()*+,-.//0123456789:;<=>?@[/backslash ]^_{|}~¢/bullet ®©/trademark ±¥/ellipsis/endash/emdash/quotedblleft/quotedblright/quoteleft/quoteright ÷ªº¹²³/foursuperior/fraction ½¼¾¡¿·­/quotesinglbase/quotedblbase «»/guilsinglleft/guilsinglright ¤/euro £/divisionslash/minus ×¬µ¶§°¦/space I'VE/space BEEN/space LOST!",
-"!DA1234"
+"!DA1234",
+"¡tomato!/space zoo/space will/space not/space vaccinate/space apes/space/quoteleft at/space this/space stage/quoteright \012/quoteleft.case AT/space THIS/space STAGE/quoteright.case"
 );
 classes = (
 {
@@ -71,6 +67,7 @@ customParameters = (
 {
 name = glyphOrder;
 value = (
+.notdef,
 NULL,
 CR,
 space,
@@ -204,25 +201,6 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = openTypeGaspRangeRecords;
-value = (
-{
-rangeGaspBehavior = (
-0,
-1,
-2,
-3
-);
-rangeMaxPPEM = 65535;
-}
-);
-},
-{
-name = openTypeHeadFlags;
-value = (
-);
-},
-{
 name = versionString;
 value = "Version 1.000";
 },
@@ -237,21 +215,9 @@ value = 0.03963;
 {
 name = blueShift;
 value = 7;
-},
-{
-name = postscriptForceBold;
-value = 0;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = postscriptUniqueID;
-value = 7;
 }
 );
-date = "2021-02-12 05:04:46 +0000";
+date = "2021-03-24 02:46:50 +0000";
 designer = "Yoshimichi Ohira";
 designerURL = "https://www.zenfont.jp/";
 disablesNiceNames = 1;
@@ -306,34 +272,6 @@ ascender = 902;
 capHeight = 804;
 customParameters = (
 {
-name = TTFZones;
-value = (
-{
-name = fig;
-position = 782;
-size = 16;
-},
-{
-name = asc;
-position = 380;
-size = 16;
-},
-{
-name = "B: -38";
-position = -38;
-size = -16;
-}
-);
-},
-{
-name = underlineThickness;
-value = 20;
-},
-{
-name = underlinePosition;
-value = -133;
-},
-{
 name = typoAscender;
 value = 950;
 },
@@ -364,6 +302,34 @@ value = 1075;
 {
 name = winDescent;
 value = -250;
+},
+{
+name = TTFZones;
+value = (
+{
+name = fig;
+position = 782;
+size = 16;
+},
+{
+name = asc;
+position = 380;
+size = 16;
+},
+{
+name = "B: -38";
+position = -38;
+size = -16;
+}
+);
+},
+{
+name = underlinePosition;
+value = -133;
+},
+{
+name = underlineThickness;
+value = 20;
 }
 );
 descender = -230;
@@ -53849,5 +53815,5 @@ width = 16;
 UFOFormat = 3;
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
