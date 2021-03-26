@@ -84,7 +84,10 @@ KHHH,
 "»",
 "!\"#$%&'()*+,-.//0123456789:;<=>?@",
 "!\"#$%&'()*+,-.//0123456789:;<=>?@[/backslash ]^_{|}~¢/bullet ®©/trademark ±¥/ellipsis/endash/emdash/quotedblleft/quotedblright/quoteleft/quoteright ÷ªº¹²³/foursuperior/fraction ½¼¾¡¿·­/quotesinglbase/quotedblbase «»/guilsinglleft/guilsinglright ¤/euro £/divisionslash/minus ×¬µ¶§°¦",
-"a32safxer¹"
+"a32safxer¹",
+"½",
+"¼",
+"/ellipsis"
 );
 classes = (
 {
@@ -33738,7 +33741,7 @@ unicode = 2044;
 {
 color = 7;
 glyphname = onehalf;
-lastChange = "2021-03-20 13:51:49 +0000";
+lastChange = "2021-03-26 16:23:02 +0000";
 layers = (
 {
 background = {
@@ -53614,5 +53617,5 @@ width = 16;
 UFOFormat = 3;
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
