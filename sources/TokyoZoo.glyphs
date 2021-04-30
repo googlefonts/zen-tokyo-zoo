@@ -1,5 +1,8 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
+DisplayStrings = (
+"hola@hotmail.com\012¿HOLA@HOTMAIL.COM?"
+);
 classes = (
 {
 automatic = 1;
@@ -144,10 +147,6 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-name = versionString;
-value = "Version 1.000";
 },
 {
 name = blueFuzz;
@@ -53498,5 +53497,5 @@ width = 16;
 UFOFormat = 3;
 };
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 2;
 }
